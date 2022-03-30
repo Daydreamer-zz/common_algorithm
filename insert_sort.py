@@ -10,7 +10,6 @@ def insert_sort(li):
             li[j+1] = li[j] # 往右移
             j -= 1
         li[j+1] = tmp # 把摸到的牌插到合适位置
-        print(li)
 
 
 if __name__ == '__main__':
