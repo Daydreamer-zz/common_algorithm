@@ -8,7 +8,6 @@ def select_sort(li):
             if li[j] < li[min_loc]:
                 min_loc = j  # 记录无序区最小数的位置
         li[i], li[min_loc] = li[min_loc], li[i] # 交换被比较的数和最小值的位置，即把最小值放第一个
-        print(li)
 
 
 li = [3, 4, 2, 1, 5, 8, 6, 7, 9]
